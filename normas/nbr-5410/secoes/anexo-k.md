@@ -39,7 +39,7 @@ onde:
 
 **Figura K.1 — Medição da impedância do percurso da corrente de falta por meio da queda de tensão**
 
-[imagem]
+[imagem revisada]
 Esquema de medição da impedância do percurso da corrente de falta pela queda de tensão. À esquerda,
 uma chave tripolar com três blocos retangulares pretos ligados em série, em forma de U, como carga.
 À direita, os condutores L1, L2, L3 e N, com blocos retangulares pretos nas fases L1, L2 e L3, e o
@@ -67,7 +67,7 @@ onde:
 
 **Figura K.2 — Figura - Medição da impedância do percurso da corrente de falta**
 
-[imagem]
+[imagem revisada]
 Esquema de medição da impedância do percurso da corrente de falta com fonte de tensão alternada.
 À esquerda, a mesma chave tripolar com três blocos retangulares pretos ligados em forma de U.
 À direita, os condutores L1, L2, L3 e N, com blocos retangulares pretos nas fases, e o condutor N

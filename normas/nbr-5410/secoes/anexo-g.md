@@ -15,7 +15,7 @@ As figuras G.1 e G.2 destinam-se apenas a ilustrar as prescrições referentes a
 
 **Figura G.1 — Eqüipotencialização principal numa situação hipotética em que todos os elementos nela**
 
-[imagem]
+[imagem revisada]
 Diagrama de equipotencialização principal em uma situação hipotética, com todos os elementos
 incluíveis ligados. A barra BEP, na parte superior, tem pontos de conexão, e os condutores EC ligam
 à BEP os elementos numerados: 1 (eletrodo de aterramento, no piso), 2 (tubulação), 3 (3.a, 3.b,
@@ -33,7 +33,7 @@ Legenda: BEP = Barramento de eqüipotencialização principal EC = Condutores de
 
 **Figura G.2 — Conexões da alimentação elétrica à eqüipotencialização principal,**
 
-[imagem]
+[imagem revisada]
 Dois esquemas lado a lado, ambos com o quadro de distribuição principal e a barra PE.
 Esquema TN (à esquerda): os condutores N e PE do quadro; o PEN, que sobe do quadro até a região do
 Detalhe A e segue ligado ao BEP.
@@ -55,7 +55,7 @@ NOTAS
 
 **Figura G.3 — Exemplo de eqüipotencialização principal em que os elementos nela incluíveis não se**
 
-[imagem]
+[imagem revisada]
 Exemplo de equipotencialização principal em que alguns elementos não são incluíveis. A figura tem
 a mesma estrutura da anterior: barra BEP com condutores EC ligados aos elementos numerados 1, 2,
 3 (3.a, 3.b, 3.c, 3.d), 4 (4.a, 4.b) e 5, e o Detalhe A (**). O eletrodo de aterramento (1) corre

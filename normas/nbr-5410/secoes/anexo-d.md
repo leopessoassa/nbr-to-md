@@ -69,7 +69,7 @@ Conseqüentemente, o valor de *I*z a ser utilizado na condição b) 5.3.4.1 pass
 
 **Figura D.1 — Circuito com dispositivos de proteção contra sobrecarga individuais, para cada um**
 
-[imagem]
+[imagem revisada]
 Circuitos em paralelo, cada um com dispositivo de proteção contra sobrecarga próprio. Do lado
 "fonte", os dispositivos In1, In2, In3, Ink e Inm ligam-se aos condutores de cada circuito, numerados
 1, 2, 3, k e m. Cada circuito tem a corrente admissível Izk do condutor, indicada com seta para o
@@ -85,7 +85,7 @@ IBk ≤ Ink ≤ Izk.
 
 **Figura D.2 — Circuito com um único dispositivo de proteção contra sobrecarga para**
 
-[imagem]
+[imagem revisada]
 Circuitos em paralelo alimentados por um único dispositivo de proteção In, no lado "fonte". Os
 circuitos 1, 2, 3, k e m têm as correntes admissíveis Iz1, Iz2, Iz3, Izk e Izm. O circuito k aparece
 tracejado. Na parte inferior, as condições indicadas são IB ≤ In ≤ ΣIzk e ΣIzk = Iz1 + Iz2 + … + Izm.
@@ -106,7 +106,7 @@ Quando três ou mais condutores são ligados em paralelo, podem surgir múltiplo
 
 **Figura D.3 — Fluxo de corrente no início da falta**
 
-[imagem]
+[imagem revisada]
 Três ramos em paralelo, a, b e c, cada um com dispositivo do lado "fonte" (as, bs, cs) e um
 dispositivo do lado "carga" (al, bl, cl). Há uma falta indicada por um raio e um X no ramo c, com
 setas de corrente nos ramos a, b e c. As setas indicam a circulação da corrente de falta no início
@@ -118,7 +118,7 @@ Rótulos: Lado "fonte", Lado "carga", as, bs, cs, al, bl, cl, a, b, c, X.
 
 **Figura D.4 — Fluxo de corrente após a atuação do dispositivo de proteção cs**
 
-[imagem]
+[imagem revisada]
 O mesmo arranjo de três ramos da figura anterior, com o dispositivo cs do lado "fonte" desenhado
 com um X sobre ele, indicando que foi atuado. O ramo c tem a falta indicada por raio e X, com seta
 de corrente apenas no sentido ascendente. Os ramos a e b mantêm suas setas de corrente para o

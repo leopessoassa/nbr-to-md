@@ -681,7 +681,7 @@ Situação Distância
 
 **Figura 6 — Passagens com proteção parcial por meio de obstáculos**
 
-[imagem]
+[imagem revisada]
 Corte com partes vivas aéreas (conjuntos em forma de garfo sob uma barra horizontal) e um painel
 ou tela (faixa cinza horizontal) que delimita, com obstáculos tracejados, passagens sob as partes
 vivas. Cotas: altura de 2300 mm, 2000 mm do piso até a tela e afastamentos de 700 mm entre as
@@ -703,7 +703,7 @@ NOTAS
 
 **Figura 7 — Zona de alcance normal**
 
-[imagem]
+[imagem revisada]
 Três vistas em planta com contornos de zona de alcance (faixas hachuradas). Nas duas vistas
 superiores, há uma bancada (retângulo) com contorno que se afasta dela. Na vista inferior, um
 retângulo central rotulado "S" tem contorno uniforme. Cotas: 2,50 m, 1,25 m e 0,75 m, com setas
@@ -751,7 +751,7 @@ Onde : S = superfície sobre a qual se postam ou circulam pessoas.
 
 **Figura 8 — Passagens sem proteção com partes vivas de um único lado**
 
-[imagem]
+[imagem revisada]
 Corte com paredes hachuradas laterais e uma linha de partes vivas aéreas (conjuntos em forma de
 garfo) ligadas por um condutor horizontal, com altura de 2300 mm. Um ponto de comando (símbolo de
 interruptor) fica a 700 mm da parede. Cotas de passagem de 1000 mm em cada lado do conjunto.
@@ -762,7 +762,7 @@ Rótulos: "Partes vivas", "700 mm", "2300 mm", "1000 mm".
 
 **Figura 9 — Passagens sem proteção com partes vivas dos dois lados**
 
-[imagem]
+[imagem revisada]
 Vista lateral de uma linha de partes vivas aéreas ligadas a um condutor horizontal, com altura
 de 2300 mm. Dois pontos de comando (símbolo de interruptor) ficam no piso, à esquerda. A figura
 mostra duas linhas de cotas, uma acima da outra: a primeira com 900 mm, 1000 mm e 1500 mm, e a

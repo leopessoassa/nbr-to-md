@@ -25,7 +25,7 @@ titulo: Anexo J (normativo) Medição da resistência de aterramento
 
 **Figura J.1 — Medição de resistência de aterramento – Método 1**
 
-[imagem]
+[imagem revisada]
 Arranjo para medição de resistência de aterramento pelo método de queda de potencial. Uma fonte
 alimenta, por meio de um ajuste de corrente (resistor variável), o eletrodo T1 de corrente e o
 eletrodo sob ensaio T. Um amperímetro A está no circuito de corrente e um voltímetro V mede a

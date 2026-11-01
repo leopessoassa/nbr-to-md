@@ -3,3 +3,6 @@
 - Instalações elétricas de baixa tensão (ABNT NBR 5410:2004) — id `nbr-5410`
   - arquivo único: nbr-5410/nbr-5410.md
   - seções: nbr-5410/secoes/
+- Proteção contra descargas atmosféricas (None) — id `nbr-5419-1`
+  - arquivo único: nbr-5419-1/nbr-5419-1.md
+  - seções: nbr-5419-1/secoes/

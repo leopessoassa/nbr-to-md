@@ -1462,7 +1462,7 @@ onde:
 
 **Figura 10 — Interseção da curva de suportabilidade térmica do condutor com a**
 
-[imagem]
+[imagem revisada]
 Gráfico com eixo vertical t (tempo) e eixo horizontal I (corrente), com origem 0. Duas curvas
 descendentes, rotuladas C e F, se cruzam em um ponto. Uma linha pontilhada desce desse ponto até
 o eixo I, no valor Ia. Não há escalas numéricas na figura.
@@ -1496,7 +1496,7 @@ onde:
 
 **Figura 11 — Interseção da curva de suportabilidade térmica do condutor com a**
 
-[imagem]
+[imagem revisada]
 Gráfico com eixo vertical t (tempo) e eixo horizontal I (corrente), com origem 0. Duas curvas
 descendentes, rotuladas C e D1. A curva D1 fica acima e à direita da curva C, com uma inflexão
 próxima ao valor Ia. Uma reta descendente cruza as duas curvas e passa por um ponto marcado. Uma
@@ -1514,7 +1514,7 @@ C = curva de suportabilidade térmica do condutor; D1 = curva de atuação do di
 
 **Figura 12 — Interseção da curva da integral de joule (I2t) suportável pelo condutor com a curva da**
 
-[imagem]
+[imagem revisada]
 Gráfico com eixo vertical I²t e eixo horizontal I, com origem 0. Uma reta horizontal, rotulada C',
 e uma reta inclinada, rotulada D2, se cruzam em um ponto marcado. Uma linha pontilhada desce desse
 ponto até o valor Ib no eixo I. Rótulos: I²t, I, C', D2, Ib.
@@ -1572,7 +1572,7 @@ NOTAS
 
 **Figura 13 — Esquemas de conexão dos DPS no ponto de entrada da linha de energia ou**
 
-[imagem]
+[imagem revisada]
 Fluxograma de decisão para escolher o esquema de conexão dos DPS. Primeira decisão: a linha
 elétrica de energia que chega à edificação inclui neutro? NÃO leva ao esquema de conexão 1. SIM
 leva à segunda decisão: o neutro será aterrado no barramento de equipotencialização principal da
@@ -1699,7 +1699,7 @@ Uma terceira opção, que oferece maior probabilidade de se obter tanto continui
 
 **Figura 14 — Possibilidades de posicionamento do dispositivo de proteção contra sobrecorrentes**
 
-[imagem]
+[imagem revisada]
 Três possibilidades de posicionamento do dispositivo de proteção contra sobrecorrentes (DP) em
 relação ao DPS, todas com a entrada da linha e o equipamento E/I.
 a): a linha tem um ponto de derivação; o DP fica em série com o DPS, e o DPS liga-se ao
@@ -1752,7 +1752,7 @@ Em termos de seção nominal, o condutor das ligações DPS–PE, no caso de DPS
 
 **Figura 15 — Comprimento máximo total dos condutores de conexão do DPS]**
 
-[imagem]
+[imagem revisada]
 Duas ligações do DPS ao BEP ou à barra PE, com medidas de comprimento dos condutores de conexão.
 a): o DPS fica entre a linha (com um fusível) e o BEP ou barra PE; as cotas a e b são somadas e a
 figura indica a + b ≤ 0,50 m. O E/I liga-se ao BEP ou barra PE.

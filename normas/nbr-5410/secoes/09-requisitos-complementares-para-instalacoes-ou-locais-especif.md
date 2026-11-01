@@ -67,7 +67,7 @@ NOTAS
 
 **Figura 16 — Dimensões dos volumes – Banheira**
 
-[imagem]
+[imagem revisada]
 Volumes ao redor de uma banheira em três vistas: planta, planta com parede divisória fixa e corte.
 Na planta, o Volume 0 e o Volume 1 ficam sob a banheira; o Volume 2 é a faixa seguinte, de 0,60 m;
 o Volume 3 vai até 2,40 m do Volume 2. Na vista com parede divisória fixa aparece a cota S e a
@@ -83,7 +83,7 @@ parede divisória fixa.
 
 **Figura 17 — Dimensões dos volumes – Chuveiro ou ducha, com piso-boxe**
 
-[imagem]
+[imagem revisada]
 Volumes em torno de um chuveiro ou ducha com piso-boxe, em três vistas: planta, planta com parede
 divisória fixa e corte. Na planta, o Volume 1 é o quarto de círculo a partir da saída do chuveiro,
 com raio de 0,60 m; o Volume 2 é a faixa seguinte, também de 0,60 m; o Volume 3 vai até 2,40 m. No
@@ -98,7 +98,7 @@ divisória fixa.
 
 **Figura 18 — Dimensões dos volumes – Chuveiro ou ducha, sem piso-boxe ou rebaixo**
 
-[imagem]
+[imagem revisada]
 Volumes em torno de um chuveiro ou ducha sem piso-boxe, em três vistas: planta, planta com parede
 divisória fixa e corte. As medidas são as mesmas da figura anterior: Volume 1 com raio de 0,60 m a
 partir da saída do chuveiro, Volume 2 em faixa de 0,60 m e Volume 3 até 2,40 m. No corte, a saída
@@ -179,7 +179,7 @@ Os componentes da instalação elétrica devem possuir pelo menos os seguintes g
 
 **Figura 19 — Cabine de banho pré-fabricada**
 
-[imagem]
+[imagem revisada]
 Planta de uma cabine de banho pré-fabricada encostada em um canto de paredes. A cabine é um
 retângulo rotulado "Cabine de banho pré-fabricada". Na face voltada para o ambiente, uma linha em
 zigue-zague marca a abertura. A área ao redor é delimitada por um contorno semicircular, com
@@ -241,7 +241,7 @@ Para efeito de aplicação de prescrições desta subseção, as piscinas e áre
 
 **Figura 20 — Dimensões dos volumes para reservatórios de piscinas e lava-pés**
 
-[imagem]
+[imagem revisada]
 Corte de uma piscina e de um lava-pés, com a plataforma de acesso e a escada. Dentro da piscina e do
 lava-pés, a água é o Volume 0. Acima da água e ao redor da piscina estão os volumes 1 e 2: o Volume 1
 tem altura de 2,5 m sobre a superfície, e o Volume 2 fica nas faixas laterais. As cotas horizontais são
@@ -255,7 +255,7 @@ Rótulos: Volume 0, Volume 1, Volume 2, 2,5 m, 1,5 m, 2,0 m.
 
 **Figura 21 — Dimensões dos volumes para reservatórios acima do solo**
 
-[imagem]
+[imagem revisada]
 Corte de um reservatório acima do solo. Dentro do reservatório, a água é o Volume 0, com a
 altura h indicada à direita. Acima do reservatório, o Volume 1 tem altura de 2,5 m, medida a
 partir do nível superior do reservatório; um contorno tracejado sobe em rampa e desce à direita
@@ -480,7 +480,7 @@ As linhas elétricas devem ser conforme 5.1.2.3.4.
 
 **Figura 22 — Volumes de uma sauna**
 
-[imagem]
+[imagem revisada]
 Duas plantas de uma sauna, cercada por isolação térmica (faixa ondulada nas bordas).
 Na planta superior, o Volume 4 é uma faixa de 0,3 m junto à parede superior; o Volume 3 ocupa a
 maior parte da área; o Volume 2 é uma faixa de 0,5 m junto à parede inferior; o Volume 1 fica à

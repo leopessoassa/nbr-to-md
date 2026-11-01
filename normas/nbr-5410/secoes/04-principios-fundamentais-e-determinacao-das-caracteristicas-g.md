@@ -233,7 +233,7 @@ O esquema TN possui um ponto da alimentação diretamente aterrado, sendo as mas
 
 **Figura 1 — Esquema TN-S**
 
-[imagem]
+[imagem revisada]
 Esquema de alimentação TN-S. Terminais L1, L2 e L3 (fases) e N e PE (condutores separados),
 à esquerda, com símbolo de aterramento da alimentação na parte inferior esquerda.
 As fases L1, L2 e L3 descem por derivações com pontos de conexão até duas caixas tracejadas
@@ -245,7 +245,7 @@ por derivações com pontos de conexão e símbolos de seccionamento.
 
 **Figura 2 — Esquema TN-C-S**
 
-[imagem]
+[imagem revisada]
 Esquema TN-C-S. À esquerda, terminais L1, L2, L3 e PEN com aterramento da alimentação; o PEN
 é uma linha única com derivações às massas, rotuladas "Massas". Na parte direita da figura,
 PE e N aparecem como linhas separadas, com a linha PE atendendo as massas.
@@ -257,7 +257,7 @@ PE e N aparecem como linhas separadas, com a linha PE atendendo as massas.
 
 **Figura 3 —Esquema TN-C**
 
-[imagem]
+[imagem revisada]
 Esquema TN-C. Terminais L1, L2, L3 e PEN, à esquerda, com aterramento da alimentação na parte
 inferior esquerda. O PEN é uma linha horizontal contínua com derivações às duas caixas
 tracejadas rotuladas "Massas".
@@ -273,7 +273,7 @@ O esquema TT possui um ponto da alimentação diretamente aterrado, estando as m
 
 **Figura 4 — Esquema TT**
 
-[imagem]
+[imagem revisada]
 Dois esquemas lado a lado. No da esquerda, terminais L1, L2, L3 e N, com linha PE, aterramento
 da alimentação e caixas "Massas" ligadas por derivações. No da direita, terminais L1, L2, L3 e N,
 com caixas "Massas" ligadas a terminais PE que têm símbolo de aterramento próprio, separado do
@@ -292,7 +292,7 @@ No esquema IT todas as partes vivas são isoladas da terra ou um ponto da alimen
 
 **Figura 5 — Esquema IT**
 
-[imagem]
+[imagem revisada]
 Cinco esquemas, identificados por A, B, B.1, B.2 e B.3, todos com terminais L1, L2, L3 e N (linha
 tracejada, com a nota "1)") e caixas tracejadas "Massas". Em A, o N não tem ligação e a linha PE
 atende as massas. Em B, o N tem uma impedância ligada ao aterramento da alimentação. Em B.1, a
