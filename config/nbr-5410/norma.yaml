@@ -1,0 +1,50 @@
+# Ajustes específicos da ABNT NBR 5410. O restante vem de config/defaults.yaml.
+
+id: nbr-5410
+fonte: nbr/5410/NBR5410.pdf
+
+mapa_glifos:
+  ArialMT:              # nome da fonte como aparece no span (sem prefixo de subconjunto)
+    326: "—"            # confirmado p. 17 (pdfplumber: (cid:326))
+    650: "•"            # confirmado p. 17 (pdfplumber: (cid:650))
+    507: "Δ"            # confirmado p. 48 (pdfplumber: (cid:507))
+    148: "≤"            # confirmado p. 48 (pdfplumber: (cid:148))
+    153: "∑"            # p. 199: "∑Izk é a soma"; cid 153 confere
+    159: "Ω"            # p. 55: "3 000 Ω"; cid 159 confere
+  SymbolMT:
+    100: "≤"            # confirmado p. 29
+    80: "μ"             # confirmado p. 35
+    32: "√"             # confirmado p. 119
+    3: " "              # p. 5: espaço entre © e ABNT; cid 3 confere
+    14: "+"             # p. 198: sinal de mais entre termos; cid 14 confere
+    16: "−"             # p. 198/211: sinal de menos (índice k−1); cid 16 confere
+    31: "<"             # p. 99: "1,5 De ≤ V < 5 De"; cid 31 confere
+    33: ">"             # p. 76: "> 300 mm²"; cid 33 confere
+    39: "Δ"             # p. 208: índice de I_Δ; cid 39 confere
+    58: "Ω"             # p. 35: "20 Ω – 300 Ω"; cid 58 confere
+    73: "φ"             # p. 215: R_φ (letra fi da Symbol); cid 73 confere
+    99: "′"             # p. 211: apóstrofo em R′1; cid 99 confere
+    114: "±"            # p. 34: "± 1 Hz"; cid 114 confere
+    116: "≥"            # p. 100: "V ≥ 20 De"; cid 116 confere
+    117: "×"            # p. 77: "R × Im ≤ 250 V"; cid 117 confere
+    120: "•"            # p. 22: marcador de lista; cid 120 confere
+    151: "√"            # p. 141: "√3 Uo"; cid 151 confere
+    166: "∑"            # p. 199: ∑ grande da fórmula de I_B; cid 166 confere
+    167: "⎛"            # p. 198: topo do parêntese grande esquerdo; cid 167 confere
+    168: "⎜"            # p. 198: trecho do meio do parêntese esquerdo; cid 168 confere
+    169: "⎝"            # p. 198: base do parêntese esquerdo; cid 169 confere
+    179: "∫"            # p. 75: integral com limites 0 e t; cid 179 confere
+    183: "⎞"            # p. 198: topo do parêntese grande direito; cid 183 confere
+    184: "⎟"            # p. 198: trecho do meio do parêntese direito; cid 184 confere
+    185: "⎠"            # p. 198: base do parêntese direito; cid 185 confere
+
+paginas:
+  capa: [1]
+  ficha: [2]            # ficha técnica e direitos autorais; fora do corpo
+  sumario: [3, 6]       # intervalo inclusivo: páginas 3 a 6 (Prefácio começa na p. 7)
+
+# Textos de cabeçalho do início do corpo que não fazem parte do texto normativo.
+# Só saem quando a linha é exatamente um destes textos na página indicada.
+remover_linhas:
+  - pagina: 9
+    textos: ["NORMA BRASILEIRA", "Instalações elétricas de baixa tensão"]

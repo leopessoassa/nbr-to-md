@@ -2,3 +2,8 @@
 node = "22"
 python = "3.12.13"
 
+[tasks.converter]
+run = "python -m nbr2md converter"
+
+[tasks.testar]
+run = "python -m pytest -q"

@@ -1,0 +1,36 @@
+# Regras genéricas para todas as NBRs. Cada norma sobrescreve só o necessário
+# em config/<id>/norma.yaml (merge profundo; listas são concatenadas).
+
+remover:
+  marca_dagua:
+    - regex: "^Exemplar para uso exclusivo"
+    # Texto rotacionado não é removido por si só: rótulos de tabela em paisagem
+    # também são rotacionados (ex.: NBR 5410, p. 86). Só sai se casar com a regex.
+  cabecalho_rodape:
+    faixa_superior: 0.08             # fração da altura da página
+    faixa_inferior: 0.08
+    repeticao_minima: 0.4            # aparece em >=40% das páginas (dígitos normalizados)
+    regex:
+      - "^ABNT NBR [\\d\\-]+:\\d{4}$"
+      - "^© ABNT \\d{4}.{1,3}Todos os direitos reservados$"
+      - "^[ivxlcdm]+$"
+      - "^\\d{1,3}$"
+  imagem_fundo_area_minima: 0.85     # imagem que cobre >=85% da página é ignorada
+
+normalizar_espacos: ["\u200a", "\u2002", "\u2003", "\u2009", "\u00a0", "\t"]
+mapa_glifos: {}                      # fonte -> {id do glifo: caractere}; ver norma.yaml
+mapa_caracteres: {}                  # substituições de caractere por caractere (casos sem glifo)
+inline:
+  razao_tamanho_sub_sup: 0.88        # span com tamanho < 0.88 × tamanho da linha
+  deslocamento_baseline_min: 0.8     # pt
+estrutura:
+  regex_secao: "^(?P<num>(?:[A-Z]|\\d{1,2})(?:\\.\\d{1,2})*)\\s+(?P<resto>.*)$"
+  regex_anexo: "^Anexo (?P<letra>[A-Z])\\s*(?:\\((?P<tipo>normativo|informativo)\\))?\\s*(?P<titulo>.*)$"
+  regex_tabela: "^Tabela (?P<num>[A-Z]?\\.?\\d+)\\s*(?:\\((?P<cont>continuação|conclusão)\\))?\\s*[—–-]?\\s*(?P<titulo>.*)$"
+  regex_figura: "^Figura (?P<num>[A-Z]?\\.?\\d+)\\s*[—–-]\\s*(?P<titulo>.*)$"
+  regex_nota: "^NOTA(?:\\s+(?P<n>\\d+))?\\b"
+  regex_exemplo: "^EXEMPLO(?:\\s+(?P<n>\\d+))?\\b"
+  regex_item_letra: "^(?P<l>[a-z])\\)\\s*"
+  marcadores_lista: ["—", "–", "•", "-"]
+  secoes_preliminares: ["Prefácio", "Introdução", "Sumário"]
+  descartar: ["Sumário"]

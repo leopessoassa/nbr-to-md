@@ -1,0 +1,134 @@
+[
+ {
+  "numero": "3.1.1",
+  "termo": "componente (de uma instalação elétrica)",
+  "termo_en": null,
+  "definicao": "Termo empregado para designar itens da instalação que, dependendo do contexto, podem ser materiais, acessórios, dispositivos, instrumentos, equipamentos (de geração, conversão, transformação, transmissão, armazenamento, distribuição ou utilização de eletricidade), máquinas, conjuntos ou mesmo segmentos ou partes da instalação (por exemplo, linhas elétricas)."
+ },
+ {
+  "numero": "3.1.2",
+  "termo": "quadro de distribuição principal",
+  "termo_en": null,
+  "definicao": "Primeiro quadro de distribuição após a entrada da linha elétrica na edificação. Naturalmente, o termo se aplica a todo quadro de distribuição que seja o único de uma edificação."
+ },
+ {
+  "numero": "3.2.1",
+  "termo": "elemento condutivo ou parte condutiva",
+  "termo_en": null,
+  "definicao": "Elemento ou parte constituída de material condutor, pertencente ou não à instalação, mas que não é destinada normalmente a conduzir corrente elétrica."
+ },
+ {
+  "numero": "3.2.2",
+  "termo": "proteção básica",
+  "termo_en": null,
+  "definicao": "Meio destinado a impedir contato com partes vivas perigosas em condições normais."
+ },
+ {
+  "numero": "3.2.3",
+  "termo": "proteção supletiva",
+  "termo_en": null,
+  "definicao": "Meio destinado a suprir a proteção contra choques elétricos quando massas ou partes condutivas acessíveis tornam-se acidentalmente vivas."
+ },
+ {
+  "numero": "3.2.4",
+  "termo": "proteção adicional",
+  "termo_en": null,
+  "definicao": "Meio destinado a garantir a proteção contra choques elétricos em situações de maior risco de perda ou anulação das medidas normalmente aplicáveis, de dificuldade no atendimento pleno das condições de segurança associadas a determinada medida de proteção e/ou, ainda, em situações ou locais em que os perigos do choque elétrico são particularmente graves."
+ },
+ {
+  "numero": "3.2.5",
+  "termo": "dispositivo de proteção a corrente diferencial-residual (formas abreviadas: dispositivo a corrente diferencial-residual, dispositivo diferencial, dispositivo DR)",
+  "termo_en": null,
+  "definicao": "Dispositivo de seccionamento mecânico ou associação de dispositivos destinada a provocar a abertura de contatos quando a corrente diferencial- residual atinge um valor dado em condições especificadas."
+ },
+ {
+  "numero": "3.2.6",
+  "termo": "SELV (do inglês “separated extra-low voltage”)",
+  "termo_en": null,
+  "definicao": "Sistema de extrabaixa tensão que é eletricamente separado da terra, de outros sistemas e de tal modo que a ocorrência de uma única falta não resulta em risco de choque elétrico."
+ },
+ {
+  "numero": "3.2.7",
+  "termo": "PELV (do inglês “protected extra-low voltage”)",
+  "termo_en": null,
+  "definicao": "Sistema de extrabaixa tensão que não é eletricamente separado da terra mas que preenche, de modo equivalente, todos os requisitos de um SELV."
+ },
+ {
+  "numero": "3.3.1",
+  "termo": "eqüipotencialização",
+  "termo_en": null,
+  "definicao": "Procedimento que consiste na interligação de elementos especificados, visando obter a eqüipotencialidade necessária para os fins desejados. Por extensão, a própria rede de elementos interligados resultante."
+ },
+ {
+  "numero": "3.3.2",
+  "termo": "barramento de eqüipotencialização principal (BEP)",
+  "termo_en": null,
+  "definicao": "Barramento destinado a servir de via de interligação de todos os elementos incluíveis na eqüipotencialização principal (ver 6.4.2.1)."
+ },
+ {
+  "numero": "3.3.4",
+  "termo": "equipamento de tecnologia da informação (ETI)",
+  "termo_en": null,
+  "definicao": "Equipamento concebido com o objetivo de:"
+ },
+ {
+  "numero": "3.4.1",
+  "termo": "linha (elétrica) de sinal",
+  "termo_en": null,
+  "definicao": "Linha em que trafegam sinais eletrônicos, sejam eles de telecomunicações, de intercâmbio de dados, de controle, de automação, etc."
+ },
+ {
+  "numero": "3.4.2",
+  "termo": "linha externa",
+  "termo_en": null,
+  "definicao": "Linha que entra ou sai de uma edificação, seja a linha de energia, de sinal, uma tubulação de água, de gás ou de qualquer outra utilidade."
+ },
+ {
+  "numero": "3.4.3",
+  "termo": "ponto de entrega",
+  "termo_en": null,
+  "definicao": "Ponto de conexão do sistema elétrico da empresa distribuidora de eletricidade com a instalação elétrica da(s) unidade(s) consumidora(s) e que delimita as responsabilidades da distribuidora, definidas pela autoridade reguladora."
+ },
+ {
+  "numero": "3.4.4",
+  "termo": "ponto de entrada (numa edificação)",
+  "termo_en": null,
+  "definicao": "Ponto em que uma linha externa penetra na edificação."
+ },
+ {
+  "numero": "3.4.5",
+  "termo": "ponto de utilização",
+  "termo_en": null,
+  "definicao": "Ponto de uma linha elétrica destinado à conexão de equipamento de utilização."
+ },
+ {
+  "numero": "3.4.6",
+  "termo": "ponto de tomada",
+  "termo_en": null,
+  "definicao": "Ponto de utilização em que a conexão do equipamento ou equipamentos a serem alimentados é feita através de tomada de corrente."
+ },
+ {
+  "numero": "3.5.1",
+  "termo": "serviços de segurança",
+  "termo_en": null,
+  "definicao": "Serviços essenciais, numa edificação,"
+ },
+ {
+  "numero": "3.5.2",
+  "termo": "alimentação ou fonte normal",
+  "termo_en": null,
+  "definicao": "Alimentação ou fonte responsável pelo fornecimento regular de energia elétrica."
+ },
+ {
+  "numero": "3.5.3",
+  "termo": "alimentação ou fonte de reserva",
+  "termo_en": null,
+  "definicao": "Alimentação ou fonte que substitui ou complementa a fonte normal."
+ },
+ {
+  "numero": "3.5.4",
+  "termo": "alimentação ou fonte de segurança",
+  "termo_en": null,
+  "definicao": "Alimentação ou fonte destinada a assegurar o fornecimento de energia elétrica a equipamentos essenciais para os serviços de segurança."
+ }
+]

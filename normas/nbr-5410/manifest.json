@@ -1,0 +1,19 @@
+{
+ "id": "nbr-5410",
+ "titulo": "Instalações elétricas de baixa tensão",
+ "norma_completa": "ABNT NBR 5410:2004",
+ "edicao": "Segunda edição",
+ "fonte_pdf_sha256": "5dfdbea7e059c1c50787fd86a27f86a386e19b04c1e678aecd7cadb8f28b3832",
+ "paginas_pdf": 217,
+ "conversor_versao": "0.1.0",
+ "data_conversao": "2026-10-31",
+ "contagens": {
+  "secoes": 411,
+  "tabelas": 64,
+  "figuras": 32,
+  "formulas": 0,
+  "simbolos": 4,
+  "notas_rodape": 10,
+  "pendencias_rodape": 26
+ }
+}

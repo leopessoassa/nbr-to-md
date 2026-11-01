@@ -1,0 +1,387 @@
+# Descrições de figuras e fórmulas escritas pelo Kiro (Etapa 9 do plano).
+# revisado_por: ia   -> escrito pelo Kiro, ainda não revisado (marcador [imagem])
+# revisado_por: humano -> conferido por uma pessoa (marcador [imagem revisada]); só o dono troca isso.
+# hash_recorte = sha256 do PNG em normas/nbr-5410/<arquivo> (ver build/nbr-5410/recortes/pendencias.yaml).
+# Descreve o que aparece na figura, sem requisito normativo.
+
+figuras:
+  "1":
+    arquivo: assets/figura-01.png
+    hash_recorte: "cc63ae632ffaea6aa94f835401e8679318546158dc28723a877d8f6ea6fcadee"
+    descricao: |
+      Esquema de alimentação TN-S. Terminais L1, L2 e L3 (fases) e N e PE (condutores separados),
+      à esquerda, com símbolo de aterramento da alimentação na parte inferior esquerda.
+      As fases L1, L2 e L3 descem por derivações com pontos de conexão até duas caixas tracejadas
+      rotuladas "Massas", uma no centro e outra à direita. As linhas N e PE também atendem as caixas
+      por derivações com pontos de conexão e símbolos de seccionamento.
+    revisado_por: ia
+
+  "2":
+    arquivo: assets/figura-02.png
+    hash_recorte: "b645cadd5416efd8da0fa0e83b4c16fc061ed4b7b804b5f1adfcced368a6c9c4"
+    descricao: |
+      Esquema TN-C-S. À esquerda, terminais L1, L2, L3 e PEN com aterramento da alimentação; o PEN
+      é uma linha única com derivações às massas, rotuladas "Massas". Na parte direita da figura,
+      PE e N aparecem como linhas separadas, com a linha PE atendendo as massas.
+    revisado_por: ia
+
+  "3":
+    arquivo: assets/figura-03.png
+    hash_recorte: "628e34f6aa6a49d1f268995af1dba21e5b09dca45dc626deda9242dcb0a90ff4"
+    descricao: |
+      Esquema TN-C. Terminais L1, L2, L3 e PEN, à esquerda, com aterramento da alimentação na parte
+      inferior esquerda. O PEN é uma linha horizontal contínua com derivações às duas caixas
+      tracejadas rotuladas "Massas".
+    revisado_por: ia
+
+  "4":
+    arquivo: assets/figura-04.png
+    hash_recorte: "864c150b74ba4f6109d4c8ca02b58d9e06a3db87c884a18c761d281aae792a59"
+    descricao: |
+      Dois esquemas lado a lado. No da esquerda, terminais L1, L2, L3 e N, com linha PE, aterramento
+      da alimentação e caixas "Massas" ligadas por derivações. No da direita, terminais L1, L2, L3 e N,
+      com caixas "Massas" ligadas a terminais PE que têm símbolo de aterramento próprio, separado do
+      aterramento da alimentação.
+    revisado_por: ia
+
+  "5":
+    arquivo: assets/figura-05.png
+    hash_recorte: "84b8bd1117deeecb10c47365546ac48fab292350ca921fb1c8dabe8237f28b07"
+    descricao: |
+      Cinco esquemas, identificados por A, B, B.1, B.2 e B.3, todos com terminais L1, L2, L3 e N (linha
+      tracejada, com a nota "1)") e caixas tracejadas "Massas". Em A, o N não tem ligação e a linha PE
+      atende as massas. Em B, o N tem uma impedância ligada ao aterramento da alimentação. Em B.1, a
+      impedância está no N e cada conjunto de massas tem PE e aterramento próprios. Em B.2 e B.3, a
+      impedância está no N e as massas são ligadas à linha PE comum; em B.3, a impedância também se
+      liga à linha PE. Rótulos: L1, L2, L3, N, PE, Impedância, Aterramento da alimentação, Massas.
+    revisado_por: ia
+
+  "6":
+    arquivo: assets/figura-06.png
+    hash_recorte: "9cd78d319c7c9c91e8819f18f785c3b9fd97949774683991eafaf6695cdfc8b2"
+    descricao: |
+      Corte com partes vivas aéreas (conjuntos em forma de garfo sob uma barra horizontal) e um painel
+      ou tela (faixa cinza horizontal) que delimita, com obstáculos tracejados, passagens sob as partes
+      vivas. Cotas: altura de 2300 mm, 2000 mm do piso até a tela e afastamentos de 700 mm entre as
+      marcas no piso. Há dois pontos de comando (símbolo de interruptor) entre as partes vivas.
+      Rótulos: "Painel ou tela", "Obstáculos", "Partes vivas", "2300 mm", "2000 mm", "700 mm".
+    revisado_por: ia
+
+  "7":
+    arquivo: assets/figura-07.png
+    hash_recorte: "16a76780faa21d7abfd346b39603c8093f7f33c543c86e216ea0f5ecb28bf364"
+    descricao: |
+      Três vistas em planta com contornos de zona de alcance (faixas hachuradas). Nas duas vistas
+      superiores, há uma bancada (retângulo) com contorno que se afasta dela. Na vista inferior, um
+      retângulo central rotulado "S" tem contorno uniforme. Cotas: 2,50 m, 1,25 m e 0,75 m, com setas
+      indicando as distâncias a partir da borda do retângulo.
+    revisado_por: ia
+
+  "8":
+    arquivo: assets/figura-08.png
+    hash_recorte: "4f7e41ae5d7e20127d8601c80a1242037d39569505d50abfbd11400f3e78f81b"
+    descricao: |
+      Corte com paredes hachuradas laterais e uma linha de partes vivas aéreas (conjuntos em forma de
+      garfo) ligadas por um condutor horizontal, com altura de 2300 mm. Um ponto de comando (símbolo de
+      interruptor) fica a 700 mm da parede. Cotas de passagem de 1000 mm em cada lado do conjunto.
+      Rótulos: "Partes vivas", "700 mm", "2300 mm", "1000 mm".
+    revisado_por: ia
+
+  "9":
+    arquivo: assets/figura-09.png
+    hash_recorte: "d81488c2f3c08f3e2c5be9596940b2e0f72afa64a5115a2a4ca8c2b24f226cac"
+    descricao: |
+      Vista lateral de uma linha de partes vivas aéreas ligadas a um condutor horizontal, com altura
+      de 2300 mm. Dois pontos de comando (símbolo de interruptor) ficam no piso, à esquerda. A figura
+      mostra duas linhas de cotas, uma acima da outra: a primeira com 900 mm, 1000 mm e 1500 mm, e a
+      segunda com 1100 mm, 1200 mm e 1500 mm. A linha superior está rotulada "Passagem destinada à
+      manutenção" e a inferior "Passagem destinada à operação". Há notas "1)" e "2)" e o rótulo
+      "Partes vivas".
+    revisado_por: ia
+
+  "10":
+    arquivo: assets/figura-10.png
+    hash_recorte: "9578f095d2a3c4d8df8c41ec9cc4c232989923ebcd2a2fe60541c415267dbdb5"
+    descricao: |
+      Gráfico com eixo vertical t (tempo) e eixo horizontal I (corrente), com origem 0. Duas curvas
+      descendentes, rotuladas C e F, se cruzam em um ponto. Uma linha pontilhada desce desse ponto até
+      o eixo I, no valor Ia. Não há escalas numéricas na figura.
+    revisado_por: ia
+  "11":
+    arquivo: assets/figura-11.png
+    hash_recorte: "c6b0890ca7bbd4e6eb24c3ae442092802e601791e702de9a6b51b139061a2e21"
+    descricao: |
+      Gráfico com eixo vertical t (tempo) e eixo horizontal I (corrente), com origem 0. Duas curvas
+      descendentes, rotuladas C e D1. A curva D1 fica acima e à direita da curva C, com uma inflexão
+      próxima ao valor Ia. Uma reta descendente cruza as duas curvas e passa por um ponto marcado. Uma
+      linha pontilhada desce desde o ponto de Ia até o eixo I. Após Ia, a curva D1 segue em trecho quase
+      horizontal. Rótulos: t, I, 0, C, D1, Ia.
+    revisado_por: ia
+
+  "12":
+    arquivo: assets/figura-12.png
+    hash_recorte: "edb73d391cfa778e60664a3e618408b9717ca7ef039cc780edc642079c37f5fa"
+    descricao: |
+      Gráfico com eixo vertical I²t e eixo horizontal I, com origem 0. Uma reta horizontal, rotulada C',
+      e uma reta inclinada, rotulada D2, se cruzam em um ponto marcado. Uma linha pontilhada desce desse
+      ponto até o valor Ib no eixo I. Rótulos: I²t, I, C', D2, Ib.
+    revisado_por: ia
+
+  "13":
+    arquivo: assets/figura-13.png
+    hash_recorte: "e30b652dc5aab886dcede5eb0325cd317b3b11e77fd8076e52feffbcb1e48da2"
+    descricao: |
+      Fluxograma de decisão para escolher o esquema de conexão dos DPS. Primeira decisão: a linha
+      elétrica de energia que chega à edificação inclui neutro? NÃO leva ao esquema de conexão 1. SIM
+      leva à segunda decisão: o neutro será aterrado no barramento de equipotencialização principal da
+      edificação (BEP, ver 6.4.2.1)? SIM (nota b) leva ao esquema de conexão 1; NÃO (nota c) leva à
+      terceira decisão: dois esquemas de conexão são possíveis (nota d), que levam aos esquemas de
+      conexão 2 e 3.
+      Esquema 1: DPS ligados a cada condutor de fase, de um lado, e ao BEP ou à barra PE, de outro. Há
+      duas variantes: com PE ou PEN e BEP, e com barra PE.
+      Esquema 2: DPS ligados a cada condutor de fase, de um lado, e ao BEP ou à barra PE, de outro; e
+      ao condutor neutro, de um lado, e ao BEP ou à barra PE, de outro.
+      Esquema 3: DPS ligados a cada condutor de fase, de um lado, e ao condutor neutro, de outro; e ao
+      condutor neutro, de um lado, e ao BEP ou à barra PE, de outro.
+      Notas a), b), c) e d) estão no texto original.
+    mermaid: |
+      flowchart TD
+        A["A linha elétrica de energia que chega à edificação inclui neutro?"] -->|NÃO| E1["ESQUEMA DE CONEXÃO 1"]
+        A -->|SIM| B["O neutro será aterrado no barramento de equipotencialização principal da edificação? (BEP, ver 6.4.2.1)"]
+        B -->|SIM b)| E1
+        B -->|NÃO c)| D["Dois esquemas de conexão são possíveis d)"]
+        D --> E2["ESQUEMA DE CONEXÃO 2"]
+        D --> E3["ESQUEMA DE CONEXÃO 3"]
+    revisado_por: ia
+
+  "14":
+    arquivo: assets/figura-14.png
+    hash_recorte: "a9544da63172580cdc8c3bc923c836e7e3feda2f433a136f8c73af2c42146d73"
+    descricao: |
+      Três possibilidades de posicionamento do dispositivo de proteção contra sobrecorrentes (DP) em
+      relação ao DPS, todas com a entrada da linha e o equipamento E/I.
+      a): a linha tem um ponto de derivação; o DP fica em série com o DPS, e o DPS liga-se ao
+      aterramento, junto com a ligação do E/I.
+      b): o DP fica na linha antes do ponto de derivação, e o DPS liga-se ao aterramento, junto com o E/I.
+      c): dois ramos em paralelo, cada um com DP e DPS (DP1 com DPS1 e DP2 com DPS2), que se unem no
+      ponto de aterramento junto com o E/I.
+      Rótulos: DP, DPS, DP1, DP2, DPS1, DPS2, E/I, a), b), c).
+    revisado_por: ia
+
+  "15":
+    arquivo: assets/figura-15.png
+    hash_recorte: "d1d6bfd1fd75179296efc652492b96d1237c895604b7b9825bf0d7fa0fe1ca77"
+    descricao: |
+      Duas ligações do DPS ao BEP ou à barra PE, com medidas de comprimento dos condutores de conexão.
+      a): o DPS fica entre a linha (com um fusível) e o BEP ou barra PE; as cotas a e b são somadas e a
+      figura indica a + b ≤ 0,50 m. O E/I liga-se ao BEP ou barra PE.
+      b): o condutor do DPS faz um desvio em V antes de chegar ao BEP ou barra PE; a cota b é indicada
+      com a legenda b < 0,50 m.
+      Rótulos: DPS, E/I, BEP ou barra PE, a, b, a + b ≤ 0,50 m, b < 0,50 m, a), b).
+    revisado_por: ia
+
+  "16":
+    arquivo: assets/figura-16.png
+    hash_recorte: "04b4562d99347cc71768c27c281d73181b145cd06e9dee41c43e413c55ff5805"
+    descricao: |
+      Volumes ao redor de uma banheira em três vistas: planta, planta com parede divisória fixa e corte.
+      Na planta, o Volume 0 e o Volume 1 ficam sob a banheira; o Volume 2 é a faixa seguinte, de 0,60 m;
+      o Volume 3 vai até 2,40 m do Volume 2. Na vista com parede divisória fixa aparece a cota S e a
+      expressão (0,6–S) m. No corte, as alturas são 2,25 m (Volume 1 e Volume 3) e 3 m (altura do ambiente),
+      com 0,60 m e 2,40 m horizontais. Há um sinal (*) junto à banheira.
+      Rótulos: Volume 0, Volume 1, Volume 2, Volume 3, 0,60 m, 2,40 m, 2,25 m, 3 m, S, (0,6–S)m, Com
+      parede divisória fixa.
+    revisado_por: ia
+
+  "17":
+    arquivo: assets/figura-17.png
+    hash_recorte: "c852d23e498d2a032d4c77c8455b5ac03563ef0bb4e90a3997b28a1468232fbe"
+    descricao: |
+      Volumes em torno de um chuveiro ou ducha com piso-boxe, em três vistas: planta, planta com parede
+      divisória fixa e corte. Na planta, o Volume 1 é o quarto de círculo a partir da saída do chuveiro,
+      com raio de 0,60 m; o Volume 2 é a faixa seguinte, também de 0,60 m; o Volume 3 vai até 2,40 m. No
+      corte, a saída do chuveiro está a 2,25 m do piso, com altura do ambiente de 3 m.
+      Rótulos: Volume 1, Volume 2, Volume 3, Saída do chuveiro, 0,60 m, 2,40 m, 2,25 m, 3 m, Com parede
+      divisória fixa.
+    revisado_por: ia
+
+  "18":
+    arquivo: assets/figura-18.png
+    hash_recorte: "8e68b564dde770a09a054a7d9fd72eeb10ea35cf6cb25a8dc560aba3d68c0e4c"
+    descricao: |
+      Volumes em torno de um chuveiro ou ducha sem piso-boxe, em três vistas: planta, planta com parede
+      divisória fixa e corte. As medidas são as mesmas da figura anterior: Volume 1 com raio de 0,60 m a
+      partir da saída do chuveiro, Volume 2 em faixa de 0,60 m e Volume 3 até 2,40 m. No corte, a saída
+      está a 2,25 m do piso e o ambiente tem 3 m de altura.
+      Rótulos: Volume 1, Volume 2, Volume 3, Saída do chuveiro, 0,60 m, 2,40 m, 2,25 m, 3 m, Com parede
+      divisória fixa.
+    revisado_por: ia
+
+  "19":
+    arquivo: assets/figura-19.png
+    hash_recorte: "a6dd2adee97a5358b59af0eacbcee5c7603e01c3d9a826c162ab91e1ac04ff06"
+    descricao: |
+      Planta de uma cabine de banho pré-fabricada encostada em um canto de paredes. A cabine é um
+      retângulo rotulado "Cabine de banho pré-fabricada". Na face voltada para o ambiente, uma linha em
+      zigue-zague marca a abertura. A área ao redor é delimitada por um contorno semicircular, com
+      afastamentos de 0,60 m em duas direções a partir da cabine.
+      Rótulos: Cabine de banho pré-fabricada, 0,60 m (duas vezes).
+    revisado_por: ia
+
+  "20":
+    arquivo: assets/figura-20.png
+    hash_recorte: "adbec18cc73a340e181b7fc533be7ff013fdae62fdf83004716c71ee8bf483dd"
+    descricao: |
+      Corte de uma piscina e de um lava-pés, com a plataforma de acesso e a escada. Dentro da piscina e do
+      lava-pés, a água é o Volume 0. Acima da água e ao redor da piscina estão os volumes 1 e 2: o Volume 1
+      tem altura de 2,5 m sobre a superfície, e o Volume 2 fica nas faixas laterais. As cotas horizontais são
+      de 1,5 m (faixas do Volume 2) e de 2,0 m (entre a borda e o Volume 1).
+      Rótulos: Volume 0, Volume 1, Volume 2, 2,5 m, 1,5 m, 2,0 m.
+    revisado_por: ia
+  "21":
+    arquivo: assets/figura-21.png
+    hash_recorte: "08d4c468f9164befa849ae6f8329d4d3cda5f4b8b5096229a1e9974776ec8130"
+    descricao: |
+      Corte de um reservatório acima do solo. Dentro do reservatório, a água é o Volume 0, com a
+      altura h indicada à direita. Acima do reservatório, o Volume 1 tem altura de 2,5 m, medida a
+      partir do nível superior do reservatório; um contorno tracejado sobe em rampa e desce à direita
+      com a cota h. Nas faixas laterais, o Volume 2 tem 1,5 m de largura. Entre a borda do reservatório
+      e o Volume 1, há 2,0 m de cada lado.
+      Rótulos: Volume 0, Volume 1, Volume 2, 2,5 m, 2,0 m, 1,5 m, h.
+    revisado_por: ia
+
+  "22":
+    arquivo: assets/figura-22.png
+    hash_recorte: "7a1477358cf677a0701fb5db79a92788923f9023e897b9f917c359ddbe009f7e"
+    descricao: |
+      Duas plantas de uma sauna, cercada por isolação térmica (faixa ondulada nas bordas).
+      Na planta superior, o Volume 4 é uma faixa de 0,3 m junto à parede superior; o Volume 3 ocupa a
+      maior parte da área; o Volume 2 é uma faixa de 0,5 m junto à parede inferior; o Volume 1 fica à
+      direita e contém o aquecedor de pedras, com distância de 0,5 m até o Volume 3. Há uma caixa de
+      ligação, marcada com a letra b, ao lado do aquecedor.
+      Na planta inferior, o aquecedor aparece em planta com as pedras, e a área ao redor tem distância
+      de 0,5 m nas duas direções a partir do equipamento.
+      Rótulos: Volume 1, Volume 2, Volume 3, Volume 4, 0,3 m, 0,5 m, b = caixa de ligação, Isolação térmica.
+    revisado_por: ia
+
+  "D.1":
+    arquivo: assets/figura-d-01.png
+    hash_recorte: "fcfd53e1163e28471e082da8ae9eab5c7d302f52716aad71a387665225780c79"
+    descricao: |
+      Circuitos em paralelo, cada um com dispositivo de proteção contra sobrecarga próprio. Do lado
+      "fonte", os dispositivos In1, In2, In3, Ink e Inm ligam-se aos condutores de cada circuito, numerados
+      1, 2, 3, k e m. Cada circuito tem a corrente admissível Izk do condutor, indicada com seta para o
+      lado "carga". O circuito k aparece tracejado, como circuito opcional. Na parte inferior, a condição
+      indicada é IBk ≤ Ink ≤ Izk.
+      Rótulos: Lado "fonte", Lado "carga", In1, In2, In3, Ink, Inm, Iz1, Iz2, Iz3, Izk, Izm, 1, 2, 3, k, m,
+      IBk ≤ Ink ≤ Izk.
+    revisado_por: ia
+
+  "D.2":
+    arquivo: assets/figura-d-02.png
+    hash_recorte: "893df4c97f83891019f1b97cac896fd4c156dd21735cfe2aea116aaf8e666ab8"
+    descricao: |
+      Circuitos em paralelo alimentados por um único dispositivo de proteção In, no lado "fonte". Os
+      circuitos 1, 2, 3, k e m têm as correntes admissíveis Iz1, Iz2, Iz3, Izk e Izm. O circuito k aparece
+      tracejado. Na parte inferior, as condições indicadas são IB ≤ In ≤ ΣIzk e ΣIzk = Iz1 + Iz2 + … + Izm.
+      Rótulos: Lado "fonte", Lado "carga", In, Iz1, Iz2, Iz3, Izk, Izm, 1, 2, 3, k, m.
+    revisado_por: ia
+
+  "D.3":
+    arquivo: assets/figura-d-03.png
+    hash_recorte: "b32806a62d00447d8bf9d6f157aee55be7760577b27f827047327d458b13a9e2"
+    descricao: |
+      Três ramos em paralelo, a, b e c, cada um com dispositivo do lado "fonte" (as, bs, cs) e um
+      dispositivo do lado "carga" (al, bl, cl). Há uma falta indicada por um raio e um X no ramo c, com
+      setas de corrente nos ramos a, b e c. As setas indicam a circulação da corrente de falta no início
+      da falta.
+      Rótulos: Lado "fonte", Lado "carga", as, bs, cs, al, bl, cl, a, b, c, X.
+    revisado_por: ia
+
+  "D.4":
+    arquivo: assets/figura-d-04.png
+    hash_recorte: "25f0fa3e61aebacfa240c5e36f8be018f5a1f386b04d94ea4277517d417ef622"
+    descricao: |
+      O mesmo arranjo de três ramos da figura anterior, com o dispositivo cs do lado "fonte" desenhado
+      com um X sobre ele, indicando que foi atuado. O ramo c tem a falta indicada por raio e X, com seta
+      de corrente apenas no sentido ascendente. Os ramos a e b mantêm suas setas de corrente para o
+      lado "carga", com os dispositivos al e bl.
+      Rótulos: Lado "fonte", Lado "carga", as, bs, cs, al, bl, cl, a, b, c, X.
+    revisado_por: ia
+
+  "G.1":
+    arquivo: assets/figura-g-01.png
+    hash_recorte: "9fec6abed5d85b1103ed2d05ee3712c1578256267145b874beee4e7588e305c5"
+    descricao: |
+      Diagrama de equipotencialização principal em uma situação hipotética, com todos os elementos
+      incluíveis ligados. A barra BEP, na parte superior, tem pontos de conexão, e os condutores EC ligam
+      à BEP os elementos numerados: 1 (eletrodo de aterramento, no piso), 2 (tubulação), 3 (3.a, 3.b,
+      3.c e 3.d, tubulações e elementos metálicos), 4 (4.a e 4.b, tubulações de entrada) e 5 (condutor
+      ligado ao eletrodo). O Detalhe A (**) é uma área de ligação ao lado esquerdo. Há símbolo (*) junto
+      a uma conexão. Na parte inferior, o eletrodo de aterramento corre horizontalmente.
+      Rótulos: BEP, EC, Detalhe A (**), 1, 2, 3, 3.a, 3.b, 3.c, 3.d, 4, 4.a, 4.b, 5, (*).
+    revisado_por: ia
+
+  "G.2":
+    arquivo: assets/figura-g-02.png
+    hash_recorte: "db83cb2186c420a41e564bbfdddd5006c3ff0e0b738d47178fed881fa30137c8"
+    descricao: |
+      Dois esquemas lado a lado, ambos com o quadro de distribuição principal e a barra PE.
+      Esquema TN (à esquerda): os condutores N e PE do quadro; o PEN, que sobe do quadro até a região do
+      Detalhe A e segue ligado ao BEP.
+      Esquema TT (à direita): o condutor N no quadro, o PE ligado à barra PE do quadro, e a ligação do PE
+      ao BEP por um condutor vertical.
+      Rótulos: N, PE, PEN, barra PE, Quadro de distribuição principal, Detalhe A, BEP, Esquema TN,
+      Esquema TT.
+    revisado_por: ia
+
+  "G.3":
+    arquivo: assets/figura-g-03.png
+    hash_recorte: "3dd9572381defc43ee49384a142c6a540e9fbc9486b1b0480d6cb599a4e565ad"
+    descricao: |
+      Exemplo de equipotencialização principal em que alguns elementos não são incluíveis. A figura tem
+      a mesma estrutura da anterior: barra BEP com condutores EC ligados aos elementos numerados 1, 2,
+      3 (3.a, 3.b, 3.c, 3.d), 4 (4.a, 4.b) e 5, e o Detalhe A (**). O eletrodo de aterramento (1) corre
+      no piso, interrompido por quebras horizontais na parte inferior. Há símbolo (*) junto a uma conexão.
+      Rótulos: BEP, EC, Detalhe A (**), 1, 2, 3, 3.a, 3.b, 3.c, 3.d, 4, 4.a, 4.b, 5, (*).
+    revisado_por: ia
+
+  "J.1":
+    arquivo: assets/figura-j-01.png
+    hash_recorte: "057efe17c164b3f0f27092e859dfccbfb4a778f68f792bb11940784a7b828b7a"
+    descricao: |
+      Arranjo para medição de resistência de aterramento pelo método de queda de potencial. Uma fonte
+      alimenta, por meio de um ajuste de corrente (resistor variável), o eletrodo T1 de corrente e o
+      eletrodo sob ensaio T. Um amperímetro A está no circuito de corrente e um voltímetro V mede a
+      tensão entre T e o eletrodo de potencial T2. Os pontos X e Y são posições de medição, com 6 m de
+      afastamento de T2 em cada sentido. As distâncias d entre T e T2 e entre T2 e T1 são indicadas, e
+      círculos tracejados ao redor de T e T1 indicam as áreas de influência. A legenda inferior diz "Sem
+      influência mútua entre os eletrodos". No topo, parte de um texto indica que o ensaio deve ser repetido
+      com um espaçamento maior entre os eletrodos.
+      Rótulos: Fonte, Ajuste de corrente, A, V, T, T2, T1, X, Y, 6 m, d.
+    revisado_por: ia
+  "K.1":
+    arquivo: assets/figura-k-01.png
+    hash_recorte: "d646e8170b51047792042e1382bbe81d3de3fb57eb851b674c00c4bfee11f53e"
+    descricao: |
+      Esquema de medição da impedância do percurso da corrente de falta pela queda de tensão. À esquerda,
+      uma chave tripolar com três blocos retangulares pretos ligados em série, em forma de U, como carga.
+      À direita, os condutores L1, L2, L3 e N, com blocos retangulares pretos nas fases L1, L2 e L3, e o
+      condutor N ligado ao símbolo de aterramento na parte inferior. Do ponto de fase L2, um ramo passa
+      por uma chave e por uma resistência R, e segue até o condutor PE. Um amperímetro A e um voltímetro V
+      estão em paralelo, ligados ao PE na base do ramo.
+      Rótulos: L1, L2, L3, N, PE, R, A, V.
+    revisado_por: ia
+
+  "K.2":
+    arquivo: assets/figura-k-02.png
+    hash_recorte: "16f9fb0ce23281e1178055b752448eb0e7db7da60b24748dfa97b8b4cc031e2e"
+    descricao: |
+      Esquema de medição da impedância do percurso da corrente de falta com fonte de tensão alternada.
+      À esquerda, a mesma chave tripolar com três blocos retangulares pretos ligados em forma de U.
+      À direita, os condutores L1, L2, L3 e N, com blocos retangulares pretos nas fases, e o condutor N
+      ligado ao símbolo de aterramento. Um amperímetro A segue da fase L1 até um ramo que tem uma fonte de
+      tensão alternada (símbolo de senoide) e um voltímetro V em paralelo com a fonte, ligados ao PE na
+      base do ramo.
+      Rótulos: L1, L2, L3, N, PE, A, V.
+    revisado_por: ia

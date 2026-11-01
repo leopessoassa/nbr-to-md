@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Testes ao salvar código do conversor",
+      "trigger": "PostFileSave",
+      "description": "Roda a suíte de testes sempre que um arquivo .py de src/nbr2md é salvo (Etapa 0 / Seção 6 do plano).",
+      "matcher": "src[\\\\/]nbr2md[\\\\/].*\\.py$",
+      "action": {
+        "type": "command",
+        "command": "mise exec -- python -m pytest -q",
+        "timeout": 300
+      }
+    }
+  ]
+}

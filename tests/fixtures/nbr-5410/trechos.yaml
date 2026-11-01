@@ -1,0 +1,34 @@
+# Trechos de regressão da ABNT NBR 5410, verificados à mão contra a renderização da página do PDF.
+# Qualquer mudança que altere estes trechos quebra o teste (tests/test_fixtures_nbr5410.py).
+
+trechos:
+  - pagina: 9
+    verificado: "renderização da p. 9 (cabeçalho do item 1)"
+    texto: "## 1 Objetivo"
+  - pagina: 9
+    verificado: "renderização da p. 9"
+    texto: "**1.1** Esta Norma estabelece as condições a que devem satisfazer as instalações elétricas de baixa tensão, a fim de garantir a segurança de pessoas e animais, o funcionamento adequado da instalação e a conservação dos bens."
+  - pagina: 9
+    verificado: "renderização da p. 9"
+    texto: "**1.2.1** Esta Norma aplica-se também às instalações elétricas:"
+  - pagina: 9
+    verificado: "renderização da p. 9 (itens a e b)"
+    texto: "- a) em áreas descobertas das propriedades, externas às edificações;"
+  - pagina: 9
+    verificado: "renderização da p. 9 (item b, com itálico)"
+    texto: "- b) de reboques de acampamento (*trailers*), locais de acampamento (*campings*), marinas e instalações análogas; e"
+  - pagina: 9
+    verificado: "renderização da p. 9 (item c)"
+    texto: "- c) de canteiros de obra, feiras, exposições e outras instalações temporárias."
+  - pagina: 9
+    verificado: "renderização da p. 9 (nota)"
+    texto: "> **NOTA** A aplicação às linhas de sinal concentra-se na prevenção dos riscos decorrentes das influências mútuas entre essas linhas e as demais linhas elétricas da instalação, sobretudo sob os pontos de vista da segurança contra choques elétricos, da segurança contra incêndios e efeitos térmicos prejudiciais e da compatibilidade eletromagnética."
+  - pagina: 31
+    verificado: "renderização da p. 31 (legenda)"
+    texto: "**Tabela 5 — Presença de corpos sólidos**"
+  - pagina: 31
+    verificado: "renderização da p. 31 (linha AE4)"
+    texto: "| AE4 | Poeira leve | Presença de leve deposição de poeira | Deposição de poeira maior que 10 mg/m² e no máximo igual a 35 mg/m² por dia |"
+  - pagina: 31
+    verificado: "renderização da p. 31 (nota da Tabela 5)"
+    texto: "Nas condições AE2 e AE3 pode existir poeira, desde que esta não tenha influência significativa sobre os componentes elétricos."

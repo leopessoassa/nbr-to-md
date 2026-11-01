@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nbr2md"
+version = "0.1.0"
+description = "Conversão de normas técnicas brasileiras (NBR, PDF digital) em Markdown para IA e RAG"
+requires-python = ">=3.12"
+dependencies = [
+    "pymupdf>=1.28",
+    "pyyaml",
+    "pdfplumber>=0.11",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+nbr2md = "nbr2md.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
