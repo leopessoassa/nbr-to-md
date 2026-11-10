@@ -1,0 +1,19 @@
+{
+ "id": "nbr-5419-1",
+ "titulo": "Proteção contra descargas atmosféricas",
+ "norma_completa": null,
+ "edicao": "Segunda edição",
+ "fonte_pdf_sha256": "64d7708f6ab9c96a9c08ac287fdbb1f135279b9bb1b21267f0dee50581f4e1aa",
+ "paginas_pdf": 87,
+ "conversor_versao": "0.1.0",
+ "data_conversao": "2026-10-31",
+ "contagens": {
+  "secoes": 88,
+  "tabelas": 15,
+  "figuras": 23,
+  "formulas": 0,
+  "simbolos": 0,
+  "notas_rodape": 0,
+  "pendencias_rodape": 0
+ }
+}

@@ -1,0 +1,25 @@
+# Ajustes específicos da ABNT NBR 5419-1. O restante vem de config/defaults.yaml.
+# O diagnóstico do plano (Seção 1) não encontrou glifos sem Unicode nas NBR 5419,
+# então mapa_glifos começa vazio e só recebe entradas se glifos-desconhecidos.json aparecer.
+
+id: nbr-5419-1
+fonte: "nbr/5419/NBR5419-1 - Princípios gerais.pdf"
+
+# Símbolos da fonte Symbol que o PDF grava na área de uso privado (U+F000–U+F8FF).
+# Cada par foi conferido na imagem da página (índices do PDF; número impresso = índice − 12):
+#   U+F06D μ  (p. 59 do PDF: "20 μF", "100 μH a 300 μH")
+#   U+F057 Ω  (p. 59 do PDF: "1,5 Ω", "R1 ≈ 0,1 Ω")
+#   U+F044 Δ  (p. 60 do PDF: "Δi/Δt", "Δi")
+#   U+F0A2 ′  (p. 71 do PDF: "F′ (kN/m)")
+#   U+F0BB ≈  (p. 59 do PDF: "R1 ≈ 0,1 Ω")
+mapa_caracteres:
+  "\uF06D": "μ"
+  "\uF057": "Ω"
+  "\uF044": "Δ"
+  "\uF0A2": "′"
+  "\uF0BB": "≈"
+
+paginas:
+  capa: [1]
+  ficha: [2]            # ficha técnica e direitos autorais; fora do corpo
+  sumario: [3, 7]       # intervalo inclusivo: sumário nas pp. 3 a 7 (Prefácio começa na p. 8)
